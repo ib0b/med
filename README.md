@@ -99,6 +99,7 @@ As much as I would like to add on this project, the time was not quite sufficien
 Missing a few things.
 - CI/CD actions and triggers
 - Deployment Scripts, faced a few challenges in getting docker to work. Dropped it due to time constrictions
+- Better refactoring of classes and routes
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
