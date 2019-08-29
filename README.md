@@ -40,8 +40,8 @@ Patient walks in hospital.
 Goes to reception first [always].
 - #### reception
 Receptionist must be logged in.
-Reception checks if they are a new or existing patient. [adds them if new]
-Reception then adds the patient to repective queue from drop down
+Reception checks if they are a new or existing patient. [adds them if new].
+Reception then adds the patient to repective queue from drop down.
 
 Patient sits down and waits to be called to the department they were queued in.
 
@@ -49,9 +49,9 @@ Patient sits down and waits to be called to the department they were queued in.
 Practitioner logs in.
 Checks if there is any patient in queue. 
 Clicks on next Patient.
-Intercom\PA sytem announces "Mary please report to [department]" 
-Patients arrives at department
-Doctors enters notes from consultation, and submits
+Intercom\PA sytem announces "Mary please report to [department]" .
+Patients arrives at department.
+Doctors enters notes from consultation, and submits.
 Doctor then has option to end patient visit(discharge) or refer to another department.
 
 ## Implementation Summary
