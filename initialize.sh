@@ -1,14 +1,11 @@
-php artisan down
-
-#Pull the latest changes from the git repository
-
 git pull origin master
 
 #Install/update composer dependecies
 composer install --no-interaction --prefer-dist --optimize-autoloader
 
 #Run database migrations
-php artisan migrate:refresh --seed
+php artisan migrate --force
+php artisan migrate:refresh --seed --force
 
 #Clear caches
 php artisan cache:clear
@@ -30,5 +27,5 @@ npm install
 #Build assets using Laravel Mix
 npm run production
 
-#Turn off maintenance mode
-php artisan up
+
+
