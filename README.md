@@ -83,6 +83,13 @@ It implements a queue system [a queue table] where each department views its res
 
 Department routes are guarded by authentication middleware.
 
+## Tests
+run php unit below
+```
+php vendor/phpunit/phpunit/phpunit
+
+```
+Due to time contraints I implemented one test for the login directory. Checking 200 OK status. For login route
 
 
 
