@@ -23,6 +23,8 @@ npm run initialize-linux
 ```
 ## Virtual Hosts
 setup vhosts.conf for local development
+will not work with localhost\med\public due to vueroutes and laravel routes.
+please use a domain
 ```
 <VirtualHost [test domain also add to hosts file if developing locally].test:80>
     DocumentRoot "[Med directory goes here]/public"
@@ -70,9 +72,13 @@ It implements a queue system [a queue table] where each department views its res
 
 Department routes are guarded by authentication middleware.
 
+#Tests
+run php unit below
+```
+php vendor/phpunit/phpunit/phpunit
 
-
-
+```
+Due to time contraints I implemented one test for the login directory. Checking 200 OK status. For login route
 
 ## Conlcusion
 As much as I would like to add on this project, the time was not quite sufficient.
